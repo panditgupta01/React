@@ -1,12 +1,11 @@
 import "./App.css";
-import Title from "./Title";
-import MsgBox from "./MsgBox";
+import ProductTab from "./ProductTab";
 
 function App(){
     return(
-        <div className="totle">
-            <MsgBox username = "amarnath" textColor="red"/>
-            <MsgBox username = "gupta" textColor="blue"/>
+        <div>
+            <h3>Shop Now</h3>
+            <ProductTab/>
         </div>
     );
 }
